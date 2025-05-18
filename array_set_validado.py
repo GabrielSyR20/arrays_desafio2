@@ -31,13 +31,13 @@ if all(es_alfabetico(list_user1[k]) for k in range(len(list_user1))):
         # Se crea una lista con los productos recomendados para el usuario 2
         list_recomendados_2 = set(list_user2) - set(list_user1)
 
+        print(f"Los productos del usuario 1 son: {list_user1}")
+        print(f"Los productos del usuario 2 son: {list_user2}") 
+        print("Los productos que tienen en comun son:", list_produc_comun)
+        print("Los productos que no tienen en comun son:", list_produc_no_comun)
+        print("Los productos totales son:", list_productos_total)
+        print("Los productos recomendados para el usuario 1 son:", list_recomendados)
+        print("Los productos recomendados para el usuario 2 son:", list_recomendados_2)
+
 else:
     print("ingresa valores alfanumericos correctamente")
-
-print(f"Los productos del usuario 1 son: {list_user1}")
-print(f"Los productos del usuario 2 son: {list_user2}") 
-print("Los productos que tienen en comun son:", list_produc_comun)
-print("Los productos que no tienen en comun son:", list_produc_no_comun)
-print("Los productos totales son:", list_productos_total)
-print("Los productos recomendados para el usuario 1 son:", list_recomendados)
-print("Los productos recomendados para el usuario 2 son:", list_recomendados_2)
