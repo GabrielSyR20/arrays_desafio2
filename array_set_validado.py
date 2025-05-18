@@ -32,7 +32,7 @@ if all(es_alfabetico(list_user1[k]) for k in range(len(list_user1))):
         list_recomendados_2 = set(list_user2) - set(list_user1)
 
 else:
-    print("ingresa valores correctamente")
+    print("ingresa valores alfanumericos correctamente")
 
 print(f"Los productos del usuario 1 son: {list_user1}")
 print(f"Los productos del usuario 2 son: {list_user2}") 
